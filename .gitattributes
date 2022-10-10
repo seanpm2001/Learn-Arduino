@@ -32,6 +32,11 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# Arduino source file
+*.ino linguist-detectable=true
+*.ino linguist-documentation=false
+*.ino linguist-language=Arduino
+# GitHUb currently recognizes this language, but not correctly. It will display as 'other' within the repository, and will not be searchable. If sorting by the language 'Arduino' it will default to 'all' a weird bug that I should eventually bring up at some point.
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -164,7 +169,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Monday, October 10th at 2:26 pm PST)
+# Line count (including blank lines and compiler line): 176
 # End of script
